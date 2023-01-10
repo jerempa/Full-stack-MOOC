@@ -10,5 +10,6 @@
 
 ## 0.6: Uusi muistiinpano 
 
-![image](https://user-images.githubusercontent.com/115798732/211562707-8b14ee4b-7db8-4c71-988a-d110d6fe9180.png)
+![image](https://user-images.githubusercontent.com/115798732/211564436-0d63877b-7982-4fa2-b39d-3644facb6025.png)
+
 
