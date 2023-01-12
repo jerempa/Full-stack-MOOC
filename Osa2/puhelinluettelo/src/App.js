@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import personService from "./services/persons"
-import {Filter, PersonForm, Persons} from "./components/Course"
+import {Filter, PersonForm, Persons} from "./components/Component"
 import Notification from './components/Notification'
 
 const App = () => {
