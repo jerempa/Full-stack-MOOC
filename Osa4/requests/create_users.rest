@@ -1,0 +1,10 @@
+
+
+POST http://localhost:3001/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "username": "Esa",
+    "name": "Esa Esimerkki",
+    "password": "123"
+}

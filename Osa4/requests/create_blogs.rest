@@ -1,0 +1,12 @@
+
+
+POST http://localhost:3001/api/blogs HTTP/1.1
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkVzYXMiLCJpZCI6IjYzYzk3NWIxNGU0MzAyYzRjYjgwMTNkYiIsImlhdCI6MTY3NDE0NzI2MSwiZXhwIjoxNjc0MTUwODYxfQ.NZ5L-dEmJSgZfn9hgIve6ncm6zx27AGjtAIf9myKw5g
+
+{
+    "title": "Esimerkkiblogi",
+    "author": "Markus",
+    "likes": 2,
+    "url": "Esimerkki.com"
+}
