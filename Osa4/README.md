@@ -2,7 +2,7 @@
 
 ## Brief
 
-Backend implementation of a app, includes tests.
+Backend implementation of a bloglist app, includes tests.
 
 ## Guide for running
 
