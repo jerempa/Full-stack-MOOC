@@ -2,7 +2,7 @@
 
 ## Submissions
 
-Every part of the course is in its own folder, except Part3 can be found [here](https://github.com/jerempa/Full-stack-MOOC-osa3)
+Every part of the course is in its own folder in this repository, except Part3 can be found [here](https://github.com/jerempa/Full-stack-MOOC-osa3)
 
 ## Progress on exercises so far
 
@@ -13,3 +13,4 @@ Every part of the course is in its own folder, except Part3 can be found [here](
 * Osa3: 22/22
 * Osa4: 23/23
 * Osa5: 23/23
+* Osa6: 21/21
