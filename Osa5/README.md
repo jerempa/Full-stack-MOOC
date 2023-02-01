@@ -2,7 +2,7 @@
 
 ## Brief
 
-Frontend implementation for blogs app. Backend can be found here: https://github.com/jerempa/Full-stack-MOOC-osa3
+Frontend implementation for blogs app. Backend can be found [here](https://github.com/jerempa/Full-stack-MOOC/tree/main/Osa4)
 
 ## Guide for running
 
