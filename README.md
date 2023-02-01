@@ -14,4 +14,6 @@ Every part of the course is in its own folder in this repository, except Part3 c
 * Osa4: 23/23
 * Osa5: 23/23
 * Osa6: 21/21
-* Osa7: 8/21
+* Osa7: 17/21
+
+### Total: 146/150 exercises completed
