@@ -1,6 +1,6 @@
 # Submission for exercises in Osa7: 7.9 and 7.21
 
-## Backend for the app can be found [here](https://github.com/jerempa/Full-stack-MOOC-osa3)
+## Backend for the app can be found [here](https://github.com/jerempa/Full-stack-MOOC/tree/main/Osa4)
 
 ## Guide for running
 
