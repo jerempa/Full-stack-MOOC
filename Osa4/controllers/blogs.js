@@ -48,5 +48,32 @@ blogRouter.put('/:id', async (request, response) => {
   response.json(updatedBlog.toJSON())
 }) //change the like count of a blog
 
+blogRouter.post('/:id/comments', async (request, response, next) => {
+  const body = request.body
+  try {
+    const findBlog = await Blog.findById(request.params.id)
+    let blogComments = null
+    if (findBlog.comments.length > 0){
+      blogComments = findBlog.comments
+      blogComments.push(body.content)
+    }
+    else {
+      blogComments = [body.content]
+    }
+    const blog = {
+      title: findBlog.title,
+      author: findBlog.author,
+      url: findBlog.url,
+      likes: findBlog.likes,
+      comments: blogComments 
+    }
+    await Blog.validate(blog)
+    const updatedBlog = await Blog.findByIdAndUpdate(request.params.id, blog, { new: true })
+    response.json(updatedBlog.toJSON())
+  } catch (error) {
+    next(error)
+  }
+}) //add a comment to a blog
+
 
 module.exports = blogRouter
